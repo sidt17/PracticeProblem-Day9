@@ -2,14 +2,12 @@
 
 namespace EmployeeWageProblem
 {
-    /// <summary>
-    /// Contains the Main Method
-    /// </summary>
-    class Program
+   class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Program");
+            Monthlywage obj = new Monthlywage();
+            obj.Calculatingmonthlywage();
 
         }
 
